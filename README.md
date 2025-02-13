@@ -1,4 +1,4 @@
-# CloneProjectLandingPage
+# CloneProductLandingPage
  This is the project cloning the design and layout of the [Product Landing Page](https://product-landing-page.freecodecamp.rocks), with the integration of a backend server serving two APIs. The
 project includes tasks for HTML/CSS layout, JavaScript logic, and backend API development.
 
