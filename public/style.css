@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+img.logo {
+    height: 40px;
+}
+
+nav{
+padding-top: 12px;
+a {
+    margin: 050px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+}
+.hero {
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.hero input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.features {
+    display: block;
+
+    gap: 20px;
+    padding: 40px;
+    background: white;
+}
+
+.feature-img {
+
+    height: 100px;
+    object-fit: cover;
+}
+
+.feature-text {
+    text-align: left;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-content: right;
+}
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
